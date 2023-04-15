@@ -31,7 +31,7 @@ public class Stack<I extends Number> {
                         st.push(res);
                         break;
                     case "^":
-                        res =  st.pop()^ st.pop();
+                        res = (int) Math.pow(st.pop(), st.pop());
                         st.push(res);
                         break;
                     default:
