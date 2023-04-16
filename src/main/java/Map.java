@@ -6,12 +6,19 @@ public class Map {
         Integer a = 33;
         java.util.Map<Integer, String> hmp = new HashMap<>();
 
-        hmp.putIfAbsent(1, "Карта города");
+        hmp.putIfAbsent(1, "Map of town");
+        hmp.putIfAbsent(2, "Model phone");
+        hmp.putIfAbsent(3, "We are right");
 
 
         System.out.println(a.hashCode());
         System.out.println("z".hashCode());
 
         System.out.println(hmp);
+        System.out.println(hmp.get(3));
+        System.out.println(hmp.containsKey(2));
+        System.out.println(hmp.containsValue("Model phone"));
+        System.out.println(hmp.keySet());
+        System.out.println(hmp.values());
     }
 }
