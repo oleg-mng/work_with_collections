@@ -20,5 +20,8 @@ public class Map {
         System.out.println(hmp.containsValue("Model phone"));
         System.out.println(hmp.keySet());
         System.out.println(hmp.values());
+        for (java.util.Map.Entry<Integer, String> entry : hmp.entrySet()) {
+            System.out.println(entry);
+        }
     }
 }
