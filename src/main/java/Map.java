@@ -12,7 +12,7 @@ public class Map {
 
 
         System.out.println(a.hashCode());
-        System.out.println("z".hashCode());
+        System.out.println("l".hashCode());
 
         System.out.println(hmp);
         System.out.println(hmp.get(3));
