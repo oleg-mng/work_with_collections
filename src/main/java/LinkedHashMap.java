@@ -6,5 +6,9 @@ public class LinkedHashMap {
         System.out.println(linkedHashMap);
         System.out.println(linkedHashMap.entrySet());
         System.out.println(linkedHashMap);
+        System.out.println(linkedHashMap.size());
+        linkedHashMap.clear();
+        System.out.println(linkedHashMap.entrySet());
+        System.out.println(linkedHashMap.size());
     }
 }
