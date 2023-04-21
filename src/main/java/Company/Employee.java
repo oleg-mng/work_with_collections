@@ -14,5 +14,11 @@ public class Employee {
             this.age = age;
             this.profession = profession;
         }
+
+    @Override
+    public String toString() {
+            String res = String.format("%d %s %s %d %s", id, firstName, lastName, age, profession);
+        return res;
+    }
 }
 
