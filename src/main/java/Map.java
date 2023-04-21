@@ -10,7 +10,6 @@ public class Map {
         hmp.putIfAbsent(2, "Model phone");
         hmp.putIfAbsent(3, "We are right");
 
-
         System.out.println(a.hashCode());
         System.out.println("l".hashCode());
 
